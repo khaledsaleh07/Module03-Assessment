@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./Articles.css"
 
 const Articles = () => {
     const [articles, setArticles] = useState([]);
@@ -24,6 +25,7 @@ const Articles = () => {
                             <h2>{article.title}</h2>
                             <h3>{article.author}</h3>
                             <p>{article.body}</p>
+                            <img src={article.imageUrl} className="article-img"/>
                         </div>
                     ))}
                 </div>

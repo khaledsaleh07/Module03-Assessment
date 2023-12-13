@@ -1,0 +1,10 @@
+.main-div {
+    width: 90%;
+}
+
+.articles-div {
+    margin: auto;
+    display: flex;
+    height: fit-content;
+    
+}
